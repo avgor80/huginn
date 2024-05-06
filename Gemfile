@@ -74,11 +74,11 @@ gem 'omniauth-evernote'
 gem 'listen', '~> 3.9.0', require: false
 
 # S3Agent
-gem 'aws-sdk-s3', '~> 1', '>= 1.148.0'
+gem 'aws-sdk-s3', '~> 1', '>= 1.149.1'
 
 # ImapFolderAgent
 gem 'gmail_xoauth' # support for Gmail using OAuth
-gem 'omniauth-google-oauth2', '>= 0.8.2'
+gem 'omniauth-google-oauth2', '>= 1.1.2'
 
 # Bundler <1.5 does not recognize :x64_mingw as a valid platform name.
 # Unfortunately, it can't self-update because it errors when encountering :x64_mingw.
@@ -106,7 +106,7 @@ gem 'foreman', '~> 0.88.1', github: 'ddollar/foreman'
 gem 'geokit', '~> 1.14'
 gem 'geokit-rails', '~> 2.5'
 gem 'httmultiparty', '~> 0.3.16'
-gem 'httparty', '~> 0.21'
+gem 'httparty', '~> 0.22'
 gem 'huginn_agent'
 gem 'jquery-rails', '~> 4.6'
 gem 'json', '~> 2.7', '>= 2.7.2'
